@@ -10,7 +10,7 @@ export default ({ handleFlip, flipCount, tileData }) => {
         className={`${flipped || matched ? 'flipped' : 'unflipped'} ${matched &&
           'matched'} ${flipCount > 1 && !matched && 'no-match'}`}
         draggable="false"
-        height="80"
+        height="150"
         src={image}
       />
     </div>

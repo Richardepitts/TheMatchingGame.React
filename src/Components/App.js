@@ -43,7 +43,7 @@ export default class App extends Component {
         return tile;
       });
     } else {
-      await this.delay(550);
+      await this.delay(760);
       return board.map(tile => {
         return {
           ...tile,

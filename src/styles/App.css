@@ -3,11 +3,31 @@
   font-family: Orpheus-Pro;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
 .App {
   height: 100%;
   font-family: 'Orpheus-Pro';
   display: grid;
   grid-template-rows: repeat(auto, 4);
+  background-color: #5d8fd4;
+	background: linear-gradient(-45deg, #5d8fd4, #294368, #5d8fd4, #132641);
+	background-size: 700% 700%;
+	animation: gradient 15s ease-in-out infinite;
 }
 
 

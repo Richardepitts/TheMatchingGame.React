@@ -3,7 +3,7 @@
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .matched {
@@ -33,7 +33,7 @@ img {
 
 @keyframes match {
   from {
-    box-shadow: 0px 0px 0px 4px #ed643c;
+    box-shadow: 0px 0px 0px 4px #3ea71e;
   }
 
   to {
@@ -43,7 +43,7 @@ img {
 
 @keyframes no-match {
   from {
-    box-shadow: 0px 0px 0px 4px #550606;
+    box-shadow: 0px 0px 0px 4px #f28444;
   }
 
   to {
